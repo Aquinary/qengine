@@ -1,4 +1,4 @@
-#ifndef QVIDEO_H
+﻿#ifndef QVIDEO_H
 #define QVIDEO_H
 
 struct _qwindow

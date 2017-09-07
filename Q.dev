@@ -1,4 +1,4 @@
-[Project]
+п»ї[Project]
 FileName=Q.dev
 Name=Q
 Type=1
@@ -40,7 +40,7 @@ LanguageID=1049
 CharsetID=1252
 CompanyName=Q.Time
 FileVersion=1.0.0.155
-FileDescription=Q - основанный на SDL движок, разработанный для создания тайловых 2D игр
+FileDescription=Q - РѕСЃРЅРѕРІР°РЅРЅС‹Р№ РЅР° SDL РґРІРёР¶РѕРє, СЂР°Р·СЂР°Р±РѕС‚Р°РЅРЅС‹Р№ РґР»СЏ СЃРѕР·РґР°РЅРёСЏ С‚Р°Р№Р»РѕРІС‹С… 2D РёРіСЂ
 InternalName=Q
 LegalCopyright=
 LegalTrademarks=

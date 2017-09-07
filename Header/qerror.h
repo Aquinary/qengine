@@ -1,7 +1,7 @@
-#ifndef QERROR_H
+п»ї#ifndef QERROR_H
 #define QERROR_H
 
-#define Q_ERROR_SDL_INIT "Не удалось инициализировать SDL!"
+#define Q_ERROR_SDL_INIT "РќРµ СѓРґР°Р»РѕСЃСЊ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°С‚СЊ SDL!"
 
 void _ErrorSend( char* );
 char *_ErrorRead( int );

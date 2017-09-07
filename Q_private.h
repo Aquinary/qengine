@@ -1,4 +1,4 @@
-/* THIS FILE WILL BE OVERWRITTEN BY DEV-C++ */
+п»ї/* THIS FILE WILL BE OVERWRITTEN BY DEV-C++ */
 /* DO NOT EDIT ! */
 
 #ifndef Q_PRIVATE_H
@@ -12,7 +12,7 @@
 #define VER_BUILD	164
 #define COMPANY_NAME	"Q.Time"
 #define FILE_VERSION	"1.0.0.164"
-#define FILE_DESCRIPTION	"Q - основанный на SDL движок, разработанный для создания тайловых 2D игр"
+#define FILE_DESCRIPTION	"Q - РѕСЃРЅРѕРІР°РЅРЅС‹Р№ РЅР° SDL РґРІРёР¶РѕРє, СЂР°Р·СЂР°Р±РѕС‚Р°РЅРЅС‹Р№ РґР»СЏ СЃРѕР·РґР°РЅРёСЏ С‚Р°Р№Р»РѕРІС‹С… 2D РёРіСЂ"
 #define INTERNAL_NAME	"Q"
 #define LEGAL_COPYRIGHT	""
 #define LEGAL_TRADEMARKS	""

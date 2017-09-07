@@ -1,16 +1,16 @@
-#include "Header/Q.h"
+п»ї#include "Header/Q.h"
 
 void _WindowCreate( char* Caption, int X, int Y, int W, int H)
 {
-	/* Функция создания окна */                                                                                                                                                                                                    
+	/* Р¤СѓРЅРєС†РёСЏ СЃРѕР·РґР°РЅРёСЏ РѕРєРЅР° */                                                                                                                                                                                                    
 	
-	//Присваеваем параметры 
+	//РџСЂРёСЃРІР°РµРІР°РµРј РїР°СЂР°РјРµС‚СЂС‹ 
 	QWindow -> Caption = Caption;
 	QWindow -> X = X;
 	QWindow -> Y = Y;
 	QWindow -> W = W;
 	QWindow -> H = H;
-	//Создаем окно
+	//РЎРѕР·РґР°РµРј РѕРєРЅРѕ
 	QWindow -> Window = SDL_CreateWindow
 	( 
 		QWindow -> Caption, 
@@ -20,7 +20,7 @@ void _WindowCreate( char* Caption, int X, int Y, int W, int H)
 		QWindow -> H,
 		QWindow -> WindowFlags
 	);
-	//Создание области рендера
+	//РЎРѕР·РґР°РЅРёРµ РѕР±Р»Р°СЃС‚Рё СЂРµРЅРґРµСЂР°
 	QWindow -> Render = SDL_CreateRenderer 
 	(
 		QWindow -> Window,
@@ -31,31 +31,31 @@ void _WindowCreate( char* Caption, int X, int Y, int W, int H)
 
 void _WindowDestroy ( )
 {
-	/* Функция уничтожения окна */
+	/* Р¤СѓРЅРєС†РёСЏ СѓРЅРёС‡С‚РѕР¶РµРЅРёСЏ РѕРєРЅР° */
 	SDL_DestroyWindow ( QWindow -> Window );
 }
 
 void _WindowRender ( )
 {
-	/* Функция очистки и обновления изображения */
+	/* Р¤СѓРЅРєС†РёСЏ РѕС‡РёСЃС‚РєРё Рё РѕР±РЅРѕРІР»РµРЅРёСЏ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ */
 	SDL_RenderPresent ( QWindow -> Render); 
 	SDL_RenderClear ( QWindow -> Render );
 }
 
 void _WindowMaximize ( )
 {
-	/* Функция максимизации окна */
+	/* Р¤СѓРЅРєС†РёСЏ РјР°РєСЃРёРјРёР·Р°С†РёРё РѕРєРЅР° */
 	
 }
 
 void _WindowMinimize ( )
 {
-	/* Функция минимизации окна */
+	/* Р¤СѓРЅРєС†РёСЏ РјРёРЅРёРјРёР·Р°С†РёРё РѕРєРЅР° */
 	
 }
 
 char* _WindowCaption ( int Type, ... )
 {
-	/* Функции установки/получения заголовка окна */
+	/* Р¤СѓРЅРєС†РёРё СѓСЃС‚Р°РЅРѕРІРєРё/РїРѕР»СѓС‡РµРЅРёСЏ Р·Р°РіРѕР»РѕРІРєР° РѕРєРЅР° */
 	
 }

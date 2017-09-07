@@ -1,12 +1,12 @@
-#ifndef QSCENE_H
+п»ї#ifndef QSCENE_H
 #define QSCENE_H
-//Структура-тип
+//РЎС‚СЂСѓРєС‚СѓСЂР°-С‚РёРї
 typedef struct __scene
 {
-	int ID; //Идентификатор сцены
-	int LSize; //Логический размер
-	int ZLevel; //Пложения слоя
-	int Active; //Активность сцены
+	int ID; //РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃС†РµРЅС‹
+	int LSize; //Р›РѕРіРёС‡РµСЃРєРёР№ СЂР°Р·РјРµСЂ
+	int ZLevel; //РџР»РѕР¶РµРЅРёСЏ СЃР»РѕСЏ
+	int Active; //РђРєС‚РёРІРЅРѕСЃС‚СЊ СЃС†РµРЅС‹
 } _Scene;
 
 struct _qscene
@@ -14,12 +14,12 @@ struct _qscene
 	//_Scene *Scene[ QSCENEMAXCOUNT ];
 	struct _scene
 	{
-		int ID; //Идентификатор сцены
-		int LSize; //Логический размер
-		int ZLevel; //Пложения слоя
-		int Active; //Активность сцены
+		int ID; //РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃС†РµРЅС‹
+		int LSize; //Р›РѕРіРёС‡РµСЃРєРёР№ СЂР°Р·РјРµСЂ
+		int ZLevel; //РџР»РѕР¶РµРЅРёСЏ СЃР»РѕСЏ
+		int Active; //РђРєС‚РёРІРЅРѕСЃС‚СЊ СЃС†РµРЅС‹
 	} *Scene [ QSCENEMAXCOUNT ];
-	int SceneCount; //Число сцен
+	int SceneCount; //Р§РёСЃР»Рѕ СЃС†РµРЅ
 } *QScene;
 void _SceneCreate ( int, int, int);
 int _SceneActive ( int );

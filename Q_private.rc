@@ -1,4 +1,4 @@
-/* THIS FILE WILL BE OVERWRITTEN BY DEV-C++ */
+п»ї/* THIS FILE WILL BE OVERWRITTEN BY DEV-C++ */
 /* DO NOT EDIT! */
 
 #include <windows.h> // include for version info constants
@@ -18,7 +18,7 @@ FILETYPE VFT_APP
     {
       VALUE "CompanyName", "Q.Time"
       VALUE "FileVersion", "1.0.0.164"
-      VALUE "FileDescription", "Q - основанный на SDL движок, разработанный для создания тайловых 2D игр"
+      VALUE "FileDescription", "Q - РѕСЃРЅРѕРІР°РЅРЅС‹Р№ РЅР° SDL РґРІРёР¶РѕРє, СЂР°Р·СЂР°Р±РѕС‚Р°РЅРЅС‹Р№ РґР»СЏ СЃРѕР·РґР°РЅРёСЏ С‚Р°Р№Р»РѕРІС‹С… 2D РёРіСЂ"
       VALUE "InternalName", "Q"
       VALUE "LegalCopyright", ""
       VALUE "LegalTrademarks", ""

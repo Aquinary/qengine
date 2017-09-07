@@ -1,7 +1,7 @@
-#ifndef QEVENT_H
+п»ї#ifndef QEVENT_H
 #define QEVENT_H
 
-//TODO: Переназначить дефанами все клавиши на манер QKEY_*
+//TODO: РџРµСЂРµРЅР°Р·РЅР°С‡РёС‚СЊ РґРµС„Р°РЅР°РјРё РІСЃРµ РєР»Р°РІРёС€Рё РЅР° РјР°РЅРµСЂ QKEY_*
 
 struct _qevent
 {

@@ -1,4 +1,4 @@
-#ifndef QKEYS_H
+﻿#ifndef QKEYS_H
 #define QKEYS_H
 
 #define QKEY_Q SDLK_q 

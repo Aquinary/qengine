@@ -1,4 +1,4 @@
-#ifndef Q_H
+﻿#ifndef Q_H
 #define Q_H
 
 #include <stdlib.h>

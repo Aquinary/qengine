@@ -1,4 +1,4 @@
-#ifndef QIMAGE_H
+﻿#ifndef QIMAGE_H
 #define QIMAGE_H
 
 struct _qimage

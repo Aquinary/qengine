@@ -1,4 +1,4 @@
-#ifndef QAPP_H
+п»ї#ifndef QAPP_H
 #define QAPP_H
 
 #define QWINDOWFLAG 0x00
@@ -50,11 +50,11 @@
 #define QSCENEMAXCOUNT	256
 
 
-//Инициализация Q
+//РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Q
 void QInit ( void );
-//Деинициализация Q
+//Р”РµРёРЅРёС†РёР°Р»РёР·Р°С†РёСЏ Q
 void QQuit ( void );
-//Установка и получение флагов окна и рендера
+//РЈСЃС‚Р°РЅРѕРІРєР° Рё РїРѕР»СѓС‡РµРЅРёРµ С„Р»Р°РіРѕРІ РѕРєРЅР° Рё СЂРµРЅРґРµСЂР°
 Uint32 _AppFlags ( int, int, ... );
 #endif
 
