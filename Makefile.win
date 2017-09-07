@@ -1,0 +1,69 @@
+# Project: Q
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = Temp/Q_private.res
+OBJ      = Temp/main.o Temp/qapp.o Temp/qerror.o Temp/qevent.o Temp/qgui.o Temp/qimage.o Temp/qkey.o Temp/qmouse.o Temp/qscene.o Temp/qwindow.o Temp/help.o Temp/qsplash.o Temp/exhelp.o $(RES)
+LINKOBJ  = Temp/main.o Temp/qapp.o Temp/qerror.o Temp/qevent.o Temp/qgui.o Temp/qimage.o Temp/qkey.o Temp/qmouse.o Temp/qscene.o Temp/qwindow.o Temp/help.o Temp/qsplash.o Temp/exhelp.o $(RES)
+LIBS     = -L"C:/MinGW/lib" Library/libmingw32.a Library/libSDL2main.a Library/libSDL2.dll.a Library/libSDL2.a Library/libSDL2_image.dll.a Library/libSDL2_image.a
+INCS     = 
+CXXINCS  = 
+BIN      = Binary/libQ.a
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+Temp/main.o: main.c
+	$(CC) -c main.c -o Temp/main.o $(CFLAGS)
+
+Temp/qapp.o: qapp.c
+	$(CC) -c qapp.c -o Temp/qapp.o $(CFLAGS)
+
+Temp/qerror.o: qerror.c
+	$(CC) -c qerror.c -o Temp/qerror.o $(CFLAGS)
+
+Temp/qevent.o: qevent.c
+	$(CC) -c qevent.c -o Temp/qevent.o $(CFLAGS)
+
+Temp/qgui.o: qgui.c
+	$(CC) -c qgui.c -o Temp/qgui.o $(CFLAGS)
+
+Temp/qimage.o: qimage.c
+	$(CC) -c qimage.c -o Temp/qimage.o $(CFLAGS)
+
+Temp/qkey.o: qkey.c
+	$(CC) -c qkey.c -o Temp/qkey.o $(CFLAGS)
+
+Temp/qmouse.o: qmouse.c
+	$(CC) -c qmouse.c -o Temp/qmouse.o $(CFLAGS)
+
+Temp/qscene.o: qscene.c
+	$(CC) -c qscene.c -o Temp/qscene.o $(CFLAGS)
+
+Temp/qwindow.o: qwindow.c
+	$(CC) -c qwindow.c -o Temp/qwindow.o $(CFLAGS)
+
+Temp/help.o: help.c
+	$(CC) -c help.c -o Temp/help.o $(CFLAGS)
+
+Temp/qsplash.o: qsplash.c
+	$(CC) -c qsplash.c -o Temp/qsplash.o $(CFLAGS)
+
+Temp/exhelp.o: Doc/exhelp.c
+	$(CC) -c Doc/exhelp.c -o Temp/exhelp.o $(CFLAGS)
+
+Temp/Q_private.res: Q_private.rc 
+	$(WINDRES) -i Q_private.rc --input-format=rc -o Temp/Q_private.res -O coff 
+

@@ -1,0 +1,34 @@
+/* THIS FILE WILL BE OVERWRITTEN BY DEV-C++ */
+/* DO NOT EDIT! */
+
+#include <windows.h> // include for version info constants
+
+
+//
+// TO CHANGE VERSION INFORMATION, EDIT PROJECT OPTIONS...
+//
+1 VERSIONINFO
+FILEVERSION 1,0,0,164
+PRODUCTVERSION 1,0,0,164
+FILETYPE VFT_APP
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "041904E4"
+    {
+      VALUE "CompanyName", "Q.Time"
+      VALUE "FileVersion", "1.0.0.164"
+      VALUE "FileDescription", "Q - основанный на SDL движок, разработанный для создания тайловых 2D игр"
+      VALUE "InternalName", "Q"
+      VALUE "LegalCopyright", ""
+      VALUE "LegalTrademarks", ""
+      VALUE "OriginalFilename", "Q"
+      VALUE "ProductName", "Q Tile Engine"
+      VALUE "ProductVersion", "1.0.0.164"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x0419, 1252
+  }
+}
